@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>Digger Monitor Configurator - Status</title>
+</head>
+
+<body>
+
+<?php require_once 'pieces/_navbar.php' ?>
+
+<main id="main-container" role="main">
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Status</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Port #</th>
+                            <th scope="col">IP</th>
+                            <th scope="col">Ping</th>
+                            <th scope="col">Last Restart</th>
+                            <th scope="col">Total restarts for the last 1h</th>
+                            <th scope="col">Total speed</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Port 1</th>
+                            <td>192.168.1.1</td>
+                            <td>20</td>
+                            <td>0.34h</td>
+                            <td class="text-center">3 restarts</td>
+                            <td>138 Mh/s</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Port 2</th>
+                            <td>192.168.1.1</td>
+                            <td>20</td>
+                            <td>0.34h</td>
+                            <td class="text-center">12 restarts</td>
+                            <td>138 Mh/s</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Port 3</th>
+                            <td>192.168.1.1</td>
+                            <td>20</td>
+                            <td>0.34h</td>
+                            <td class="text-center">134 restarts</td>
+                            <td>138 Mh/s</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <hr>
+
+    </div> <!-- /container -->
+</main>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>-->
+<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
